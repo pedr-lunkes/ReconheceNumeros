@@ -30,4 +30,7 @@
 *.exe
 *.out
 *.app
-/execs/
+execs/
+.png
+.jpg
+dataset/
