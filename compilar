@@ -1,1 +1,1 @@
-g++ -o rom rom.cpp `pkg-config --cflags --libs opencv4` 
+g++ -o rom rom.cpp `pkg-config --cflags --libs opencv4` -O3 -march=native
