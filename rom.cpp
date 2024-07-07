@@ -43,15 +43,11 @@ class Rede{
         }
 
         void setUm(int chave, int *pesos){
-            tabelas[chave][indice(pesos)] += 1;
+            tabelas[chave][indice(pesos)] = 1;
         }
 
         char getRes(int chave, int *pesos){
             return tabelas[chave][indice(pesos)];
-        }
-
-        void esquecer(int chave, int *pesos){
-            tabelas[chave][indice(pesos)] = false;
         }
 };
 
